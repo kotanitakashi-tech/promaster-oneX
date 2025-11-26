@@ -1,0 +1,26 @@
+{
+  "name": "Rock Energy",
+  "version": "1.0",
+  "description": "Aggressive rock mastering with powerful mids and punchy drums",
+  "description_jp": "パワフルな中域とパンチのあるドラムのアグレッシブなロックマスタリング",
+  "targetLoudness": -12.0,
+  "targetDynamicRange": 7.0,
+  "bassPresence": -10.0,
+  "vocalPresence": -6.0,
+  "brightnessRatio": 1.8,
+  "bandLevels": [-16.0, -10.0, -7.0, -6.0, -7.0, -9.0, -12.0, -18.0],
+  "bandNames": ["Sub Bass", "Bass", "Low Mid", "Mid", "Upper Mid", "Presence", "Brilliance", "Air"],
+  "bandFrequencies": [20, 60, 250, 500, 1000, 2000, 6000, 12000],
+  "compressionSettings": {
+    "subBass": {"threshold": -16, "ratio": 4.0, "attack": 25, "release": 180},
+    "bass": {"threshold": -12, "ratio": 3.5, "attack": 15, "release": 120},
+    "lowMid": {"threshold": -10, "ratio": 3.0, "attack": 10, "release": 100},
+    "mid": {"threshold": -8, "ratio": 2.5, "attack": 8, "release": 80},
+    "upperMid": {"threshold": -10, "ratio": 2.5, "attack": 6, "release": 70},
+    "presence": {"threshold": -12, "ratio": 3.0, "attack": 4, "release": 50},
+    "brilliance": {"threshold": -14, "ratio": 3.5, "attack": 3, "release": 40},
+    "air": {"threshold": -18, "ratio": 4.0, "attack": 2, "release": 35}
+  },
+  "createdDate": "2024-01-15T11:00:00Z",
+  "author": "Promaster Audio"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Pop Master 2024",
+  "version": "1.0",
+  "description": "Modern pop mastering profile with punchy bass and bright highs",
+  "description_jp": "パンチの効いた低音と明るい高音のモダンポップマスタリングプロファイル",
+  "targetLoudness": -14.0,
+  "targetDynamicRange": 8.5,
+  "bassPresence": -12.0,
+  "vocalPresence": -8.5,
+  "brightnessRatio": 2.5,
+  "bandLevels": [-18.0, -14.0, -10.0, -8.5, -9.0, -10.5, -14.0, -20.0],
+  "bandNames": ["Sub Bass", "Bass", "Low Mid", "Mid", "Upper Mid", "Presence", "Brilliance", "Air"],
+  "bandFrequencies": [20, 60, 250, 500, 1000, 2000, 6000, 12000],
+  "compressionSettings": {
+    "subBass": {"threshold": -18, "ratio": 3.0, "attack": 30, "release": 200},
+    "bass": {"threshold": -16, "ratio": 2.5, "attack": 20, "release": 150},
+    "lowMid": {"threshold": -14, "ratio": 2.0, "attack": 15, "release": 120},
+    "mid": {"threshold": -12, "ratio": 2.0, "attack": 10, "release": 100},
+    "upperMid": {"threshold": -12, "ratio": 2.0, "attack": 8, "release": 80},
+    "presence": {"threshold": -14, "ratio": 2.5, "attack": 5, "release": 60},
+    "brilliance": {"threshold": -16, "ratio": 3.0, "attack": 3, "release": 50},
+    "air": {"threshold": -20, "ratio": 4.0, "attack": 2, "release": 40}
+  },
+  "createdDate": "2024-01-15T10:30:00Z",
+  "author": "Promaster Audio"
+}

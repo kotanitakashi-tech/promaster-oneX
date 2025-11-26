@@ -1,0 +1,26 @@
+{
+  "name": "Jazz Warmth",
+  "version": "1.0",
+  "description": "Warm and dynamic jazz mastering with natural headroom",
+  "description_jp": "自然なヘッドルームを持つ暖かくダイナミックなジャズマスタリング",
+  "targetLoudness": -18.0,
+  "targetDynamicRange": 12.0,
+  "bassPresence": -14.0,
+  "vocalPresence": -10.0,
+  "brightnessRatio": 1.2,
+  "bandLevels": [-20.0, -16.0, -12.0, -10.0, -11.0, -13.0, -17.0, -24.0],
+  "bandNames": ["Sub Bass", "Bass", "Low Mid", "Mid", "Upper Mid", "Presence", "Brilliance", "Air"],
+  "bandFrequencies": [20, 60, 250, 500, 1000, 2000, 6000, 12000],
+  "compressionSettings": {
+    "subBass": {"threshold": -24, "ratio": 2.0, "attack": 50, "release": 300},
+    "bass": {"threshold": -22, "ratio": 1.8, "attack": 40, "release": 250},
+    "lowMid": {"threshold": -20, "ratio": 1.5, "attack": 30, "release": 200},
+    "mid": {"threshold": -18, "ratio": 1.5, "attack": 25, "release": 180},
+    "upperMid": {"threshold": -18, "ratio": 1.5, "attack": 20, "release": 150},
+    "presence": {"threshold": -20, "ratio": 1.8, "attack": 15, "release": 120},
+    "brilliance": {"threshold": -22, "ratio": 2.0, "attack": 10, "release": 100},
+    "air": {"threshold": -26, "ratio": 2.5, "attack": 8, "release": 80}
+  },
+  "createdDate": "2024-01-15T11:30:00Z",
+  "author": "Promaster Audio"
+}
